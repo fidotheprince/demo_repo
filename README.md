@@ -10,4 +10,7 @@ More changes.
 
 1. HTML is important. 
 2. JavaScript is important. 
+```js
+  console.log('Hello World');
+```
 
