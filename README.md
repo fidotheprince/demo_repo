@@ -43,7 +43,7 @@
     * At checkout, both parent and child branches are the same
     * As you push changes to your child branch updates will only be made on this branch
     * The branches don't have a way of knowing what changes have been made to another branch
-      * Isolated branches while you work on the code prevents breaking changes to master
+      * Isolated branches while you work on the code can prevent breaking changes to master
       * You only merge your branch back to master (the parent) when you know it works
     * You can also do a HOTFIX (child branch) where you checkout a branch
       * Fix the code, and merge the branch back into master(parent branch)
