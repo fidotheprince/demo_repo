@@ -28,4 +28,7 @@
   ---
   * `git init` initializes a local directory as git repository 
     * run command within project folder
-  * Create a new empty repository on GitHub (28:51)
+  * Create a new empty repository on GitHub
+    * Copy provided HTTPS link for repository
+  * Connect local repo with remote repository
+    `git remote add origin httpslink@.com:goeshere`
