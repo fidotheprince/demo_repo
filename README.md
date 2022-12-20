@@ -27,9 +27,21 @@
 * How to turn a local project into a remote git repository 
   ---
   * `git init` initializes a local directory as git repository 
-    * run command within project folder
+    * Run this command within project folder
   * Create a new empty repository on GitHub
     * Copy provided HTTPS link for repository
-  * Connect local repo with remote repository
+  * Connect local repo with the remote repository
     * Run the following command within your projects directory
     * `git remote add origin httpslink@.com:goeshere`
+  * Check remote repos that you've connected to via this commmand
+    * `git remote -v`
+
+* Git branching
+---
+  * Master or Main is the naming convention for the principle branch
+  * What happens when you works through a branch
+    * At checkout, both parent and child branches are the same
+    * As you push changes to your child branch updates will only be made on this branch
+    * The branches don't have a way of knowing what changes have been made to another branch
+      * Isolated branches while you work on the code prevents breaking changes to master
+      * You only merge your branch back to master (the parent) when you know it works
