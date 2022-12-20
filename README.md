@@ -49,4 +49,5 @@
       * Fix the code, and merge the branch back into master(parent branch)
   * To create a new branch of parent use `git checkout -b descriptivenamehere-11`
   * To switch between branches use `git checkout branchNameHere`
+  * To see changes you'll commit use `git diff` command
 
