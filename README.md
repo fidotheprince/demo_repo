@@ -22,6 +22,7 @@ More changes.
 
 * Note all changes to your local branch are recorded via the hidden .git file
 * `git add` <filename> enables git to start tracking changes to files 
-* `git add` is sayinhg, "git look at changes made on these files"
-* Version control
+* `git add <file>` is saying, "git look at changes made on this file"
+* `git add .` track changes in all the files within this directory"
+
 
