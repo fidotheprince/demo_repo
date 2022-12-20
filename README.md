@@ -61,4 +61,7 @@
     * You can continue to update the child branch even while it has a live pull request
       * No been merge has been approved yet, so you're gucc to keep tweaking as needed
   * Once PR is merged you'll can delete the local child branch & switch back to master
+  * The owner of a repo will see that you just pushed to your branch and open a PR
+    * This is done through GitHub's graphical UI
+    * There are several review tools, including code comments that you can use to live PR request
 
