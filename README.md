@@ -20,10 +20,12 @@
   * `git add <file>` is saying, "git look at changes made on this file"
   * `git add .` track changes in all the files within this directory"
   * `git commit -m"random message here;"` is how you designate changed files that you'd liked merged
+    * add a second `-m""` to write text for the description of your commit
   * `git branch` shows what branch you're on 
   * `git push origin main` tells git where to merge to
 
 * How to turn a local project into a git repository 
   ---
-  * `git init` initializes a directory as git repository 
+  * `git init` initializes a local directory as git repository 
     * run command within project folder
+  * Create a new empty repository on GitHub (28:51)
