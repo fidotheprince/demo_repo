@@ -50,5 +50,6 @@
   * To create a new branch of parent use `git checkout -b descriptivenamehere-11`
   * To switch between branches use `git checkout branchNameHere`
   * To see changes you'll commit use `git diff` command
-  * 41:47 - Learning to merge branch back into parent (master)
+  * Make sure to have a remote branch to be pushing too 
+    * To define the remote branch you'll be pushing to 'git push --set-upstream origin feature-branch-AC12'
 
