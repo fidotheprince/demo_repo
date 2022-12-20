@@ -1,12 +1,4 @@
-# Demo 
-
-Some description
-
-## Subheader
-
-More changes. 
-
-## Local Development
+## Review this file when ever you get rusty
 
 * Below is just a bit of chicken scratch for practice
 * I'm refreshing my version controll skills
