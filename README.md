@@ -50,4 +50,5 @@
   * To create a new branch of parent use `git checkout -b descriptivenamehere-11`
   * To switch between branches use `git checkout branchNameHere`
   * To see changes you'll commit use `git diff` command
+  * 41:47 - Learning to merge branch back into parent (master)
 
