@@ -23,7 +23,7 @@
   * `git branch` shows what branch you're on 
   * `git push origin main` tells git where to merge to
 
-* Here are some common git commands for turning a local project in a git repository 
+* How to turn a local project into a git repository 
   ---
   * `git init` initializes a directory as git repository 
     * run command within project folder
