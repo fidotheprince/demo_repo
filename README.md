@@ -24,11 +24,12 @@
   * `git branch` shows what branch you're on 
   * `git push origin main` tells git where to merge to
 
-* How to turn a local project into a git repository 
+* How to turn a local project into a remote git repository 
   ---
   * `git init` initializes a local directory as git repository 
     * run command within project folder
   * Create a new empty repository on GitHub
     * Copy provided HTTPS link for repository
   * Connect local repo with remote repository
-    `git remote add origin httpslink@.com:goeshere`
+    * Run the following command within your projects directory
+    * `git remote add origin httpslink@.com:goeshere`
