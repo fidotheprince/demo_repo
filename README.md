@@ -10,6 +10,7 @@ More changes.
 
 * Below is just a bit of chicken scratch for practice
 * I'm refreshing my version controll skills
+* Note all changes to your local branch are recorded via the hidden .git file
 
 1. HTML is important. 
 ```html
@@ -20,7 +21,7 @@ More changes.
   console.log('Hello World');
 ```
 
-* Note all changes to your local branch are recorded via the hidden .git file
+* Here are some common git commands 
   ---
   * `git add` <filename> enables git to start tracking changes to files 
   * `git add <file>` is saying, "git look at changes made on this file"
