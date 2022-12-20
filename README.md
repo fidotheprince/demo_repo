@@ -50,6 +50,15 @@
   * To create a new branch of parent use `git checkout -b descriptivenamehere-11`
   * To switch between branches use `git checkout branchNameHere`
   * To see changes you'll commit use `git diff` command
+
+* How to merge a checked out branch to main (parent branch)
+---
   * Make sure to have a remote branch to be pushing too 
     * To define the remote branch you'll be pushing to 'git push --set-upstream origin feature-branch-AC12'
+  * Set up a _Pull Request_ to merge child branch to parent branch
+    * PR originates from child branch
+    * Code reviews are best done prior having a child branch merged
+    * You can continue to update the child branch even while it has a live pull request
+      * No been merge has been approved yet, so you're gucc to keep tweaking as needed
+  * Once PR is merged you'll can delete the local child branch & switch back to master
 
