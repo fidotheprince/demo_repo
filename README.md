@@ -25,4 +25,7 @@ More changes.
 * `git add <file>` is saying, "git look at changes made on this file"
 * `git add .` track changes in all the files within this directory"
 
+*`git branch` shows what branch you're on 
+*`git push origin main` tells git where to merg to
+
 
