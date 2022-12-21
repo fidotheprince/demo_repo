@@ -64,8 +64,14 @@
   * The owner of a repo will see that you just pushed to your branch and open a PR
     * This is done through GitHub's graphical UI
     * There are several review tools, including code comments that you can use to live PR request
+  * To delete a branch use this command `git branch -d branch-name-here`
 
 * How to get the most recent changes to your master (parent) branch
 ---
   * `git pull origin master` to recieve the most recent changes to the code
+
+* Handling Merge conflicts
+---
+  * To add and commit a modified file at the same time use `git commit -am "random message here"`
+  //random line of text
 
