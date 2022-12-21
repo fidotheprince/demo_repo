@@ -73,6 +73,18 @@
 * Handling Merge conflicts
 ---
   * To add and commit a modified file at the same time use `git commit -am "random message here"`
-  //random line of text
-  //modified file
-  //this line is from main
+  * The key with handling merge conflicts is literally to overview them manually
+  * VScode gives you great visual tools to do this
+
+  * If you ever want to undo a `git add <filename>` command 
+    * E.g to unstage a file, use this command `git reset <filename>`
+  * If you ever want to reset a commit do the following
+    * `get reset HEAD~1`
+    * _HEAD_ is a pointer to the list of commits 
+    * _~1_ is saying go back to commit before the mess up
+      * E.g undo the commit you just made
+  * To see a log of all of your commits use `git log`
+    * The log is organized from latest commit to earliest
+    * To recent form a specific point forward user 
+      * `git reset 40a0ac562a932b4d407a4d286e35fde1634be61c` the wierd text is a commit hash
+      * It resent that commit and any commits that came after it
