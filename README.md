@@ -55,7 +55,7 @@
 ---
   * Make sure to have a remote branch to be pushing too 
     * To define the remote branch you'll be pushing to 'git push --set-upstream origin feature-branch-AC12'
-  * Set up a _Pull Request_ to merge child branch to parent branch
+  * Sets up a _Pull Request_ to merge child branch to parent branch
     * PR originates from child branch
     * Code reviews are best done prior having a child branch merged
     * You can continue to update the child branch even while it has a live pull request
