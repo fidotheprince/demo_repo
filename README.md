@@ -65,3 +65,7 @@
     * This is done through GitHub's graphical UI
     * There are several review tools, including code comments that you can use to live PR request
 
+* How to get the most recent changes to your master (parent) branch
+---
+  * `git pull origin master` to recieve the most recent changes to the code
+
